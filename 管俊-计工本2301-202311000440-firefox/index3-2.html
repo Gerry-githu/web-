@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+	<h1>Form Example</h1>
+	
+<body>
+	<form action="/submit" method="post">
+	<p>用户名输入</p>
+        <input type="text" name="username" placeholder="用户名输入"><br>
+
+        <p>密码输入</p>
+        <input type="password" name="password" placeholder="密码输入"><br><br>
+	<p>性别</p>
+        <input type="radio" name="gender" value="male"> 男<br>
+        <input type="radio" name="gender" value="female"> 女<br>
+
+	 <p>Checkbox</p>
+        
+        <input type="checkbox" name="兴趣" value="运动"> 运动<br>
+        <input type="checkbox" name="兴趣" value="音乐"> 音乐<br>
+        <input type="checkbox" name="兴趣" value="旅行"> 旅行<br>
+        <input type="checkbox" name="兴趣" value="阅读"> 阅读<br>
+        <input type="checkbox" name="兴趣" value="玩游戏"> 玩游戏<br><br>
+
+	<p>Textarea</p>
+        <textarea name="comments" rows="4" cols="50" placeholder="Comments"></textarea><br><br>
+	 <p>选项</p>
+        <select name="country">
+            <option value="美国">美国</option>
+            <option value="加拿大">加拿大</option>
+            <option value="英国">英国</option>
+            <option value="澳大利亚">澳大利亚</option>
+            <option value="德国">德国</option>
+            <option value="法国">法国</option>
+            <option value="日本">日本</option>
+            <option value="印度">印度</option>
+            <option value="中国">中国</option>
+            <option value="巴西">巴西</option>
+        </select><br>
+	 <p>发送和重填按钮</p>
+        <input type="submit" value="发送">
+        <input type="reset" value="重填">
+    </form>
+
+</body>
+</html>
